@@ -1,0 +1,10 @@
+import numpy as np
+arr=np.array([[1,2,3],[4,5,6]])
+print(arr)
+no_of_rows=np.size(arr,0)
+print("rows : ",no_of_rows)
+no_of_cols=np.size(arr,1)
+print("cols:",no_of_cols)
+print("no. of dimensions: ", arr.ndim)
+rs=np.reshape(arr,(3,2))
+print("newshape " , rs)
